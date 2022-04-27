@@ -1,0 +1,1 @@
+export const contant =  {txt:"e are an ai",mobinInfoh1:"Mobin",mobinInfop:"developer", shihabInfoh1:"shihab",shihabInfop:"content"}

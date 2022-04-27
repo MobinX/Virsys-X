@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  .row{
+    @apply flex flex-row space-x-3 
+  }
+  .col{
+    @apply flex flex-col 
+  }
+  .center{
+    @apply justify-center items-center
+  }
+  .stack-bg{
+    @apply absolute z-0
+  }
+}
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
